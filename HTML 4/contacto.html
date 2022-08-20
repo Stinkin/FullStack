@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Mi pagina</title>
+</head>
+
+<body>
+    <header>Mi Sitio</header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <form action="link" method="post">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido"><br>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre"><br>
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad" value="18" min="18" max="50" step="2"><br>
+        <label for="Password">Password</label>
+        <input type="password" name="password" id="password"><br>
+
+        <p><label><input type="checkbox" name="edad15" value="15" checked> 15
+                Años</label></p>
+        <p><label><input type="checkbox" name="edad30" value="30" checked> 30
+                Años</label></p>
+        <p><label><input type="checkbox" name="edad45" value="45"> 45
+                Años</label></p>
+        <p><label><input type="checkbox" name="edad60" value="60"> 60
+                Años</label></p>
+        <p><label><input type="radio" name="edad" value="15" checked> 15
+                Años</label></p>
+        <p><label><input type="radio" name="edad" value="30"> 30
+                Años</label></p>
+        <p><label><input type="radio" name="edad" value="45"> 45
+                Años</label></p>
+        <p><label><input type="radio" name="edad" value="60"> 60
+                Años</label></p>
+
+        <p><input type="submit" value="Enviar"></p>
+        <p><input type="reset" value="Borrar"></p>
+
+    </form>
+
+    <form action="">
+        <!-- Agrupación de campos -->
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <!-- Campo de texto -->
+            Nombre de usuario:
+            <input type="text" name="nombre" placeholder="Por ej: John Smith" />
+            <br></br>
+            <!-- Campo numérico -->
+            Edad:
+            <input type="number" name="edad" min="18" max="100" placeholder="18" />
+            <br><br>
+            <!-- Botón radio de opción -->
+            Sexo:
+            <!-- Primera opción -->
+            <input type="radio" name="sexo" value="H" /> Hombre
+            <!-- Segunda opción -->
+            <input type="radio" name="sexo" value="M" /> Mujer
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Otros Datos</legend>
+
+            <!-- Campo de texto -->
+            Nombre de usuario:
+            <input type="text" name="nombre" placeholder="Por ej: John Smith" />
+            <br></br>
+            <!-- Campo numérico -->
+            Edad:
+            <input type="number" name="edad" min="18" max="100" placeholder="18" />
+            <br><br>
+            <!-- Botón radio de opción -->
+            Sexo:
+            <!-- Primera opción -->
+            <input type="radio" name="sexo" value="H" /> Hombre
+            <!-- Segunda opción -->
+            <input type="radio" name="sexo" value="M" /> Mujer
+        </fieldset>
+    </form>
+
+
+    <footer>
+        <i class='bx bxl-facebook-circle' style='color:#0000ff'></i>
+        <i class='bx bxl-whatsapp' style='color:#28ef0a'></i>
+    </footer>
+</body>
+
+</html>
