@@ -1,0 +1,8 @@
+*{
+    margin: 10px;
+}
+header, footer {
+    background-color: aqua;
+    height: 60px;
+    text-align: center;
+}
