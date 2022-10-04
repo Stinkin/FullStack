@@ -1,0 +1,18 @@
+const user={
+    "name": "Manz",
+    "life": 3,
+    "totalLife": 6,
+    "power": 10,
+    "dead": false,
+    "props": ["invisibility", "coding", "happymood"],
+    "senses": {
+      "vision": 50,
+      "audition": 75,
+      "taste": 40,
+      "touch": 80
+    }
+  };
+
+  //convertir JSON a OBJETO
+  const userCadena=JSON.parse(user);
+  
