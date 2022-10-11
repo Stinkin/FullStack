@@ -20,10 +20,10 @@ var frutas = ["Banana", "Naranja", "Manzana", "Mango"];
 /*.unshift(obj1, obj2...): Añade uno o varios elementos al inicio del array. Devuelve tamaño del array.*/
 
  var colores = ["Rojo", "Amarillo", "Verde", "Celeste"];
-// document.write("<br><br> UNSHIFT <br>");
-// document.write(colores, "<br>");
-// colores.unshift("Azul", "Naranja");
-// document.write(colores);
+document.write("<br><br> UNSHIFT <br>");
+document.write(colores, "<br>");
+colores.unshift("Azul", "Naranja");
+document.write(colores);
 
 /*.shift(): Elimina y devuelve el primer elemento del array.*/
 

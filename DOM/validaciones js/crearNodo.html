@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Creamos un h1 con texto:</p>
+<script>
+   const h1 = document.createElement("h1")             //Creamos el <h1>
+   const textNode = document.createTextNode("¡Hola!")  //Creamos el texto
+   h1.appendChild(textNode)        //Colocamos el texto como hijo del <h1>
+   document.body.appendChild(h1)   //Y ponemos el <h1> dentro del <body>
+</script>
+
+</body>
+</html>

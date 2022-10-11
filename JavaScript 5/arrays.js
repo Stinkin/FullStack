@@ -1,15 +1,15 @@
 /************** ARRAYS *****************/
-// const array = ["a", "b", "c"];
+const array = ["a", "b", "c"];
 
 
 // console.log(array[0]); // 'a'
 // console.log(array[2]); // 'c'
 // console.log(array[5]); // undefined
-// console.log(array.length); // 3
+// console.log(array.length); // 
 
 /*-----------------------------------*/
-// const vector= [1,3,5,8]; //0, 1, 2, 3: cantidad de elementos - 1
-// const vectorVacio= []; //Vector vacío
+const vector= [1,3,5,8]; //0, 1, 2, 3: cantidad de elementos - 1
+const vectorVacio= []; //Vector vacío
 const vectorDos = new Array("a", "b", "c");
 const vectorTres = new Array (1, 5, 10, 15, 20);
 
