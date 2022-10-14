@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>V-FOR</h2>
+    <ul id="app">
+        <li v-for="fruta in frutas" key="fruta">
+            {{ fruta }}
+        </li>
+        <h3>Numeros del 1 al 5</h3>
+        <ul>
+            <li v-for="n in 5 ">
+              Numero:  {{ n }}
+            </li>
+        </ul>
+    </ul>
+   
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+<script src="v-for.js"></script>
+</body>
+</html>
