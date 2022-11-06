@@ -1,0 +1,1 @@
+Esto es un texto externo se agrego con fetch
