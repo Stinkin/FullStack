@@ -6,7 +6,7 @@
 #         return (lista[0])
 #     else:
 #         return (-1)
-
+#
 # a = int(input("Ingrese un numero "))
 # b = int(input("Ingrese un numero "))
 # c = int(input("Ingrese un numero "))
@@ -14,9 +14,8 @@
 
 # #Ejercicio 2
 # from datetime import datetime
-
-# def validarFecha(a,b,c):
-        
+#
+# def validarFecha(a,b,c):       
 #     while True:
 #         try:
 #             fecha_texto = a+"/"+b+"/"+c
@@ -24,7 +23,7 @@
 #             return (True)
 #         except ValueError:
 #             return(False)
-
+#
 # a = (input("Ingrese un numero "))
 # b = (input("Ingrese un numero "))
 # c = (input("Ingrese un numero "))
@@ -41,7 +40,7 @@
 #             vuelto -=billete
 #         if i >0:
 #             print("Entregar ", i," billetes de ", billete)
-
+#
 # a = int(input("Ingrese un valor "))
 # b = int(input("Ingrese un pago "))
 # if b > a:
@@ -55,7 +54,7 @@
 #     while i < n:
 #         print("**********")
 #         i+=1
-
+#
 # def triangulo(n):
 #     i=1
 #     while i<=n:
@@ -66,7 +65,7 @@
 #             o+=1
 #         print(cadena)
 #         i+=1
-
+#
 # a = int(input("Ingrese un numero "))
 # cuadrado(a)
 # a = int(input("Ingrese un numero "))
@@ -95,9 +94,6 @@
 # print(lista[-9:])
 
 # #Ejercicio 8
-# lista1=["Alfa","Bravo","Charlie","Delta","Echo","Foxtrot","Golf","Hotel","India","Julliet","Kilo","Lima","Mike","November","Oscar","Papa","Quebec","Romeo","Sierra","Tango","Uniform","Victor","Whiskey","X-Ray","Yankee","Zulu"]
-# lista2=["Whiskey","Romeo","Zulu"]
-
 # def limpiaListas(l1,l2):
 #     print(l1)
 #     print(l2)
@@ -105,13 +101,12 @@
 #     for palabra in l2:
 #         limpia(l1,palabra)
 #     print(l1)
-
+#
+# lista1=["Alfa","Bravo","Charlie","Delta","Echo","Foxtrot","Golf","Hotel","India","Julliet","Kilo","Lima","Mike","November","Oscar","Papa","Quebec","Romeo","Sierra","Tango","Uniform","Victor","Whiskey","X-Ray","Yankee","Zulu"]
+# lista2=["Whiskey","Romeo","Zulu"]
 # limpiaListas(lista1, lista2)
 
 # #Ejercicio 9
-# lista1=["Alfa","Bravo","Charlie","Delta","Echo","Foxtrot","Golf","Hotel","India","Julliet","Kilo","Lima","Mike","November","Oscar","Papa","Quebec","Romeo","Sierra","Tango","Uniform","Victor","Whiskey","X-Ray","Yankee","Zulu"]
-# lista2=["Whiskey","Romeo","Zulu"]
-
 # def ordenada(lista):
 #     i=lista[0]
 #     result=True
@@ -121,7 +116,9 @@
 #             break
 #         i=x
 #     return(result)
-
+#
+# lista1=["Alfa","Bravo","Charlie","Delta","Echo","Foxtrot","Golf","Hotel","India","Julliet","Kilo","Lima","Mike","November","Oscar","Papa","Quebec","Romeo","Sierra","Tango","Uniform","Victor","Whiskey","X-Ray","Yankee","Zulu"]
+# lista2=["Whiskey","Romeo","Zulu"]
 # print(ordenada(lista1))
 # print(ordenada(lista2))
 
@@ -135,7 +132,7 @@
 #             break
 #         fin -=1
 #     return(result)
-
+#
 # print("kayak",capicua("kayak"))
 # print("elefante",capicua("Elefante"))
 
@@ -153,7 +150,7 @@
 # def fechaLinda(tupla):
 #     meses=["Enero","Febrero","Marzo", "Abril","Mayo", "Junio", "Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]
 #     print(tupla[0],"de",meses[int(tupla[1])-1],"de 20"+tupla[2])
-
+#
 # fechaLinda(["07","11","22"])
 # fechaLinda(["12","10","17"])
 # fechaLinda(["13","02","18"])
@@ -172,17 +169,9 @@
 #             diccionario.pop(x)
 #             exito=True
 #     return(exito)
-
-# dict={
-#   "a": "Alfa",
-#   "b": "Bravo",
-#   "c": "Charly",
-#   "d": "Delta",
-#   "e": "Echo",
-#   "f": "Foxtrot"
-# }
-# clavs=["g","z"]
-
+#
+# dict={"a": "Alfa","b": "Bravo","c": "Charly","d": "Delta","e": "Echo","f": "Foxtrot" }
+# clavs=["g","b"]
 # print(dict)
 # print(clavs)
 # print(limpiar(dict,clavs))
@@ -191,7 +180,7 @@
 # #Ejercicio 15
 # def recortar(cadena, inicio, cantidad):
 #     return(cadena[0:inicio]+cadena[inicio+cantidad:])
-    
+#   
 # frase="Mi vieja mula ya no es lo que era ya no es lo que era ya no es lo que era"
 # #frase="1234567890123456789012345678901234567890"
 # print(recortar(frase, 15, 7))
