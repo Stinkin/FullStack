@@ -125,3 +125,40 @@
 # n1= int(input("un numero "))
 # n2= int( input("otro numero "))
 # calcu=Calculadora(n1,n2)
+
+#Ejercicio 9
+class Contacto:
+    def __init__(self, nombre, telefono):
+        self.nombre=nombre
+        self.telefono=telefono
+
+    def editar(self, newNombre, newFono):
+        self.nombre=newNombre
+        self.telefono=newFono       
+
+    def __str__(self):
+        print("Nombre:", self.nombre," ","Telefono:",self.telefono)
+
+
+class Agenda:
+    def __init__(self):
+        registros=[]
+    
+    def agregarContacto(self,contacto):
+        self.registros.append(contacto)
+    
+    def editarContacto(self, contacto, newNombre, newFono):
+        contacto.editar(newNombre,newFono)
+
+    def listarContactos(self):
+        for x in self.registros:
+            print(x)
+
+    def buscarContacto(self,nombre):
+        for x in self.registros:
+            if x.nombre == nombre:
+                return(x)
+
+    def cerrarAgenda(self):
+        self.__init__
+    

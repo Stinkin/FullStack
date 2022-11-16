@@ -113,15 +113,14 @@
 #     print(cadena)
 #     n1-=1
 
-# #Ejercicio 15
-# i= 1
-# while i <= 500:
-#     cadena = ""
-#     if i % 4 == 0:
-#         cadena = cadena + " Multiplo de 4"
-#     if i % 9 == 0:
-#         cadena = cadena + " Multiplo de 9"
-#     print(str(i)+cadena)      
-#     if i % 5 == 0:
-#         print("---------------------------------------------------")  
-#     i+=1
+#Ejercicio 15
+for i in range(1,501):
+    cadena = ""
+    if i % 4 == 0:
+        cadena = cadena + " - Multiplo de 4"
+    if i % 9 == 0:
+        cadena = cadena + " - Multiplo de 9"
+    print(str(i)+cadena)      
+    if i % 5 == 0:
+        print("---------------------------------------------------")  
+    
